@@ -8,7 +8,7 @@ inputs:
   token:
     description: 'github auth token (PAT, github token, or GitHub app token)'
     required: true
-    default: ''
+    default: '${{ github.token }}'
 runs:
   using: "composite"
   steps:
