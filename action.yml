@@ -15,4 +15,4 @@ runs:
     - name: run python
       shell: bash
       run: | 
-        python3 ${{ github.ACTION_PATH }}/logic.py ${{ inputs.directory-path }} ${{ inputs.token }}
+        python3 ${{ github.action_path }}/logic.py ${{ inputs.directory-path }} ${{ inputs.token }}
